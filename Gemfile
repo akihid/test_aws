@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.2'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -40,7 +40,7 @@ gem 'dotenv-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'unicorn' # アプリケーションサーバのunicorn
-gem 'mini_racer', '~> 0.2.0', platforms: :ruby
+gem 'mini_racer', platforms: :ruby
 # gem 'mini_racer', platforms: :ruby # デプロイ時に必要
 gem "bcrypt_pbkdf", ">= 1.0", "< 2.0"
 gem "ed25519", ">= 1.2", "< 2.0"
