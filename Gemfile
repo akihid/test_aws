@@ -40,7 +40,8 @@ gem 'dotenv-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'unicorn' # アプリケーションサーバのunicorn
-gem 'mini_racer', platforms: :ruby # デプロイ時に必要
+gem 'mini_racer', '~> 0.2.0'
+# gem 'mini_racer', platforms: :ruby # デプロイ時に必要
 gem "bcrypt_pbkdf", ">= 1.0", "< 2.0"
 gem "ed25519", ">= 1.2", "< 2.0"
 
